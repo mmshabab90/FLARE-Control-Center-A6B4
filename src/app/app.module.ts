@@ -13,7 +13,9 @@ import { AlarmsComponent } from './alarms/alarms.component';
 import { AlarmListComponent } from './alarm-list/alarm-list.component';
 import { MapComponent } from './map/map.component';
 import { ChatComponent } from './chat/chat.component';
-
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { environment } from '../environments/environment';
 
 const routeLists: Routes = [
   {path: 'alarms', component: AlarmsComponent}
@@ -32,6 +34,8 @@ const routeLists: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
     RouterModule.forRoot(routeLists)

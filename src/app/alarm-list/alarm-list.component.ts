@@ -1,3 +1,4 @@
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlarmListComponent implements OnInit {
 
-  constructor() { }
+  public active = false;
+
+  isActive() {
+    return this.active = true;
+  }
+  constructor(db: AngularFireDatabase) {
+  }
 
   ngOnInit() {
   }
