@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-color">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Flare
+  </a>
+  <button class="navbar-toggler btn-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li> -->
+    </ul>
+    <div class="row navLeft">
+      <div class="userImage">
+          <img src="assets/img/user.jpg" width="30" height="30" alt="Avatar">
+      </div>
+      <div>
+          <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-light my-2 my-sm-0 btnLogout" type="submit">
+                  Logout <span><i class="fas fa-sign-out-alt"></i></span></button>
+          </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--Nav items-->
+<ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+    <a class="nav-link" href="#">Dashboard</a>
+  </li>
+  <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+    <a class="nav-link" routerLink = "alarms">Alarm List</a>
+  </li>
+</ul>

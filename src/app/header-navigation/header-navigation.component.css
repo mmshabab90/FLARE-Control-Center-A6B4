@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #FF4664;
+}
+
+.btnLogout:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.navLeft {
+  margin: 0 2px 0 0;
+}
+
+.userImage {
+  margin: 4px 5px 0 0;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.active a {
+  color: #FF4664;
+}
