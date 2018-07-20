@@ -34,7 +34,7 @@ const routeLists: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebaseChatDemo),
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
