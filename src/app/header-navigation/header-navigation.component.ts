@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from './../services/auth.service';
+import { Router } from '@angular/router';
+import * as firebase from 'firebase/app';
+import { AuthService } from '../services/security/auth.service';
 
 @Component({
   selector: 'app-header-navigation',
@@ -8,13 +10,46 @@ import { AuthService } from './../services/auth.service';
 })
 export class HeaderNavigationComponent implements OnInit {
 
-  constructor(private authService: AuthService) { }
+  currentUser: firebase.User = null;
+  displayName: string = null;
 
-  ngOnInit() {
+  constructor(private router: Router, public authService: AuthService) { }
+
+  ngOnInit(): void {
+    this.authService.getAuthState().subscribe(user => {
+      if (user) {
+        this.currentUser = user;
+        this.displayName = user.displayName ? user.displayName : user.email ? user.email : user.uid;
+        if (this.currentUser.isAnonymous) {
+          this.displayName = 'Anonymous';
+        }
+      } else {
+        this.currentUser = null;
+        this.displayName = null;
+      }
+    });
   }
 
-  logOut() {
-    this.authService.logout();
+  isAuthenticated(): boolean {
+    return this.currentUser !== null;
+  }
+
+  isAuthenticatedAsAdmin(): boolean {
+    return this.currentUser && this.currentUser.displayName === 'admin';
+  }
+
+  loginWithEmailAndPassword(email: string, password: string): void {
+    this.authService.loginWiithEmailAndPassword(email, password);
+  }
+
+  logOut(): void {
+    if (window.confirm('Are you sure?')) {
+      this.authService.logOut().then(res => {
+        this.currentUser = null;
+        this.displayName = null;
+      });
+      this.router.navigateByUrl('/login');
+    }
   }
 
 }

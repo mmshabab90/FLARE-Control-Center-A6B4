@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs';
+import { AuthService } from '../services/security/auth.service';
 
 @Component({
   providers: [],
@@ -14,16 +15,18 @@ export class AlarmListComponent implements OnInit {
 
   chatContent = '';
   chats: Observable<any[]>;
+  currentUser: firebase.User = null;
 
   isActive() {
     this.active = true;
   }
 
-  constructor(db: AngularFireDatabase) {
+  constructor(db: AngularFireDatabase, private authService: AuthService) {
     this.chats = db.list('messages').valueChanges();
   }
 
   ngOnInit() {
+    this.authService.getAuthState().subscribe(user => this.currentUser = user);
   }
 
 }

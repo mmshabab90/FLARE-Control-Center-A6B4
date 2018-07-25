@@ -1,5 +1,6 @@
+import { AuthService } from './services/security/auth.service';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,13 +21,11 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { LoginComponent } from './login/login.component';
 
-import { AuthService } from './services/auth.service';
-import { AuthguardService } from './services/security/authguard.service';
-
 const routeLists: Routes = [
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
+  {path: '', pathMatch: 'full', component: LoginComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'alarms', component: AlarmsComponent, canActivate: [AuthguardService]}
+  {path: 'alarms', component: AlarmsComponent},
+  {path: '**', redirectTo: 'login'},
 ];
 
 @NgModule({
@@ -38,7 +37,7 @@ const routeLists: Routes = [
     AlarmListComponent,
     MapComponent,
     ChatComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,7 +50,7 @@ const routeLists: Routes = [
     RouterModule.forRoot(routeLists),
     FormsModule
   ],
-  providers: [AuthService, AuthguardService],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
