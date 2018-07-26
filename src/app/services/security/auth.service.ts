@@ -3,13 +3,21 @@ import { Injectable } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  constructor(private afAuth: AngularFireAuth, private router: Router) {}
+  public isSignedInStream: Observable<boolean>;
+
+  constructor(private afAuth: AngularFireAuth, private router: Router) {
+    this.isSignedInStream = this.afAuth.authState
+      .pipe(map<firebase.User, boolean>((user: firebase.User) => {
+        return user != null;
+      }));
+  }
 
   getAuthState(): Observable<firebase.User> {
     return this.afAuth.authState;

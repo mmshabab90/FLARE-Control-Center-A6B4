@@ -21,11 +21,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AuthGuard } from './services/security/auth.guard';
 
 const routeLists: Routes = [
   {path: '', pathMatch: 'full', component: LoginComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'alarms', component: AlarmsComponent},
+  {path: 'alarms', component: AlarmsComponent, canActivate: [AuthGuard]},
   {path: '**', redirectTo: 'login'},
 ];
 
@@ -52,7 +53,7 @@ const routeLists: Routes = [
     RouterModule.forRoot(routeLists),
     FormsModule
   ],
-  providers: [AuthService],
+  providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

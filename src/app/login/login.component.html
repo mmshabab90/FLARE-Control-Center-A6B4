@@ -12,24 +12,35 @@
           <form accept-charset="UTF-8" role="form">
             <fieldset>
               <div class="form-group">
-                <input class="form-control" placeholder="E-mail" name="email" type="text" id="email"
-                [(ngModel)]="email" autocomplete="off">
+                  <div class="input-group input-group-lg">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fas fa-envelope-open"></i></span>
+                      </div>
+                      <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                      id="email" [(ngModel)]="email"placeholder="E-mail">
+                  </div>
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="Password" name="password" type="password" value=""
-              [(ngModel)]="password" (keyup.enter)="login()" autocomplete="off">
+                <div class="input-group input-group-lg">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input type="password" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                    id="password" [(ngModel)]="password" (keyup.enter)="login()" placeholder="Password">
+                </div>
             </div>
-            <input class="btn btn-lg btn-success btn-block" type="submit" (click)="login()" value="Login">
+            <button type="button" class="btn btn-lg btn-success btn-block bt-social btn-outline-success"
+            (click)="login()" data-provider="google">Login</button>
             </fieldset>
           </form>
 
         <div class='hr-or'></div>
 
-        <input class="btn btn-lg btn-danger btn-block bt-social" type="submit"
-        (click)="loginWithGoogle()" value="Login with Google" data-provider="google">
+        <button type="button" class="btn btn-lg btn-danger btn-block bt-social btn-outline-danger"
+        (click)="loginWithGoogle()" data-provider="google">Login with Google</button>
 
         <div class='hr-or'></div>
-        <button type="button" class="btn btn btn-lg btn-danger btn-block bt-social btn-outline-dark"
+        <button type="button" class="btn btn-lg btn-dark btn-block bt-social btn-outline-dark"
         data-toggle="modal" data-target="#registerModal" (click)="registerClear()">Register</button>
 
         </div>
