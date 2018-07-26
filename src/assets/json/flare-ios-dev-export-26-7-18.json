@@ -1,0 +1,1459 @@
+{
+  "alarms" : {
+    "-LICKMtT6XOL575qM7XD" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICKMtT6XOL575qM7XD",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.43329,
+          "longitude" : 10.3950901
+        },
+        "timestamp" : 1532453288
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mwp",
+          "g" : "u5r2ue9mwp",
+          "l" : [ 63.4332942, 10.3950455 ]
+        }
+      }
+    },
+    "-LICK_kRalgt1i_O7O1e" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICK_kRalgt1i_O7O1e",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332776,
+          "longitude" : 10.395239
+        },
+        "timestamp" : 1532453345
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333124, 10.3951071 ]
+        }
+      }
+    },
+    "-LICKgSLXboYAydRuYm2" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICKgSLXboYAydRuYm2",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333124,
+          "longitude" : 10.3951071
+        },
+        "timestamp" : 1532453372
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9w8r",
+          "g" : "u5r2ue9w8r",
+          "l" : [ 63.4334672, 10.3951418 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mvg",
+          "g" : "u5r2ue9mvg",
+          "l" : [ 63.4333176, 10.3950306 ]
+        }
+      }
+    },
+    "-LICMvc5TPMNQAxBj7kI" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICMvc5TPMNQAxBj7kI",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4334672,
+          "longitude" : 10.3951418
+        },
+        "timestamp" : 1532453959
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9w8r",
+          "g" : "u5r2ue9w8r",
+          "l" : [ 63.4334672, 10.3951418 ]
+        }
+      }
+    },
+    "-LICN-MXTFb0D-sf_XLc" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICN-MXTFb0D-sf_XLc",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333176,
+          "longitude" : 10.3950306
+        },
+        "timestamp" : 1532453979
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9qzv",
+          "g" : "u5r2ue9qzv",
+          "l" : [ 63.4335006, 10.3951166 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mvu",
+          "g" : "u5r2ue9mvu",
+          "l" : [ 63.4333227, 10.3950346 ]
+        }
+      }
+    },
+    "-LICOashve0wScGfXn23" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true,
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICOashve0wScGfXn23",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4335006,
+          "longitude" : 10.3951166
+        },
+        "timestamp" : 1532454398
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9rp8",
+          "g" : "u5r2ue9rp8",
+          "l" : [ 63.4335176, 10.3951093 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9myb",
+          "g" : "u5r2ue9myb",
+          "l" : [ 63.4333011, 10.395081 ]
+        }
+      }
+    },
+    "-LIC_w-X4K08MNfSSsW5" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIC_w-X4K08MNfSSsW5",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333402,
+          "longitude" : 10.3949991
+        },
+        "timestamp" : 1532457631
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9rp8",
+          "g" : "u5r2ue9rp8",
+          "l" : [ 63.4335176, 10.3951093 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9w0c",
+          "g" : "u5r2ue9w0c",
+          "l" : [ 63.4333498, 10.3951641 ]
+        }
+      }
+    },
+    "-LICa18HuEznAgIRcDuz" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LICa18HuEznAgIRcDuz",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4335176,
+          "longitude" : 10.3951093
+        },
+        "timestamp" : 1532457655
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzk",
+          "g" : "u5r2ue9mzk",
+          "l" : [ 63.4333215, 10.3951015 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9tbr",
+          "g" : "u5r2ue9tbr",
+          "l" : [ 63.4333392, 10.3951395 ]
+        }
+      }
+    },
+    "-LIDF-FvGo1zJO-laGkm" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIDF-FvGo1zJO-laGkm",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333155,
+          "longitude" : 10.3950886
+        },
+        "timestamp" : 1532468658
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333122, 10.3951109 ]
+        }
+      }
+    },
+    "-LIGqcP3RdlatMgIxFO4" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIGqcP3RdlatMgIxFO4",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4342126,
+          "longitude" : 10.3927016
+        },
+        "timestamp" : 1532529116
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9te9",
+          "g" : "u5r2ue9te9",
+          "l" : [ 63.4332661, 10.3952814 ]
+        }
+      }
+    },
+    "-LIGy9Hxl8D0ISZLz3fK" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIGy9Hxl8D0ISZLz3fK",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332661,
+          "longitude" : 10.3952814
+        },
+        "timestamp" : 1532531090
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        }
+      }
+    },
+    "-LIGyBeRu-mYHrdBNKEp" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIGyBeRu-mYHrdBNKEp",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333132,
+          "longitude" : 10.3951203
+        },
+        "timestamp" : 1532531100
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        }
+      }
+    },
+    "-LIGyCR4zohvYp0nRqAm" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIGyCR4zohvYp0nRqAm",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333132,
+          "longitude" : 10.3951203
+        },
+        "timestamp" : 1532531103
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        }
+      }
+    },
+    "-LIHNeDH2LF9FIoOKUn9" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHNeDH2LF9FIoOKUn9",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332661,
+          "longitude" : 10.3952814
+        },
+        "timestamp" : 1532538037
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mxz",
+          "g" : "u5r2ue9mxz",
+          "l" : [ 63.4332942, 10.3951185 ]
+        }
+      }
+    },
+    "-LIHWlCgQtRrNF5Q8VFu" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHWlCgQtRrNF5Q8VFu",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332705,
+          "longitude" : 10.3952762
+        },
+        "timestamp" : 1532540424
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9te6",
+          "g" : "u5r2ue9te6",
+          "l" : [ 63.4332705, 10.3952762 ]
+        }
+      }
+    },
+    "-LIHWrMPLV-_2BbC3lMu" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHWrMPLV-_2BbC3lMu",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333129,
+          "longitude" : 10.3951058
+        },
+        "timestamp" : 1532540449
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333125, 10.3951072 ]
+        }
+      }
+    },
+    "-LIHX-rIGicyHHyXDptf" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHX-rIGicyHHyXDptf",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333125,
+          "longitude" : 10.3951074
+        },
+        "timestamp" : 1532540488
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9tdg",
+          "g" : "u5r2ue9tdg",
+          "l" : [ 63.4332746, 10.3952496 ]
+        }
+      }
+    },
+    "-LIHX5kCzYtqQwCGmmoh" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHX5kCzYtqQwCGmmoh",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332942,
+          "longitude" : 10.3951185
+        },
+        "timestamp" : 1532540513
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mx3",
+          "g" : "u5r2ue9mx3",
+          "l" : [ 63.4332661, 10.3950996 ]
+        }
+      }
+    },
+    "-LIHX8Uxr0RTUTnnb41w" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHX8Uxr0RTUTnnb41w",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4332746,
+          "longitude" : 10.3952496
+        },
+        "timestamp" : 1532540524
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333125, 10.3951069 ]
+        }
+      }
+    },
+    "-LIHXDZycPXs2D0pDPuW" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHXDZycPXs2D0pDPuW",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333125,
+          "longitude" : 10.3951069
+        },
+        "timestamp" : 1532540544
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333131, 10.3951208 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mxn",
+          "g" : "u5r2ue9mxn",
+          "l" : [ 63.4332914, 10.3950842 ]
+        }
+      }
+    },
+    "-LIHcrQXOxFio22WFofR" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHcrQXOxFio22WFofR",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333132,
+          "longitude" : 10.3951203
+        },
+        "timestamp" : 1532542285
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        }
+      }
+    },
+    "-LIHd1ymoiL8WbLUcEBl" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHd1ymoiL8WbLUcEBl",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333132,
+          "longitude" : 10.3951203
+        },
+        "timestamp" : 1532542332
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333123, 10.3951105 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mz6",
+          "g" : "u5r2ue9mz6",
+          "l" : [ 63.4333103, 10.3950961 ]
+        }
+      }
+    },
+    "-LIHeWtEFvEZwtNG1g7j" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHeWtEFvEZwtNG1g7j",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333104,
+          "longitude" : 10.3951175
+        },
+        "timestamp" : 1532542721
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9tb8",
+          "g" : "u5r2ue9tb8",
+          "l" : [ 63.4333015, 10.3951506 ]
+        }
+      }
+    },
+    "-LIHed5-3ZBqQ_v2fzmS" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHed5-3ZBqQ_v2fzmS",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.43331,
+          "longitude" : 10.3951172
+        },
+        "timestamp" : 1532542750
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mxn",
+          "g" : "u5r2ue9mxn",
+          "l" : [ 63.4332896, 10.395088 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9x2b",
+          "g" : "u5r2ue9x2b",
+          "l" : [ 63.4335575, 10.3951648 ]
+        }
+      }
+    },
+    "-LIHfx4K4RIfA7N6rmEH" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHfx4K4RIfA7N6rmEH",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.43329,
+          "longitude" : 10.3950901
+        },
+        "timestamp" : 1532543094
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9yfs",
+          "g" : "u5r2ue9yfs",
+          "l" : [ 63.4334949, 10.3955875 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9ts3",
+          "g" : "u5r2ue9ts3",
+          "l" : [ 63.4332626, 10.3953168 ]
+        }
+      }
+    },
+    "-LIHiPP4Vrn6-bAca2ax" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHiPP4Vrn6-bAca2ax",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333138,
+          "longitude" : 10.3951086
+        },
+        "timestamp" : 1532543739
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333118, 10.3951095 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mxt",
+          "g" : "u5r2ue9mxt",
+          "l" : [ 63.4332866, 10.3951128 ]
+        }
+      }
+    },
+    "-LIHiZoUHBNqOTxeq5l3" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHiZoUHBNqOTxeq5l3",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.433312,
+          "longitude" : 10.3951097
+        },
+        "timestamp" : 1532543781
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333126, 10.3951151 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mwp",
+          "g" : "u5r2ue9mwp",
+          "l" : [ 63.4332979, 10.3950456 ]
+        }
+      }
+    },
+    "-LIHicHvvm1ug9Wxg4MK" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHicHvvm1ug9Wxg4MK",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333126,
+          "longitude" : 10.3951151
+        },
+        "timestamp" : 1532543795
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.433313, 10.3951184 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mxq",
+          "g" : "u5r2ue9mxq",
+          "l" : [ 63.4332923, 10.3950958 ]
+        }
+      }
+    },
+    "-LIHihwVuMDBqUKmu6FO" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true,
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHihwVuMDBqUKmu6FO",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333132,
+          "longitude" : 10.3951203
+        },
+        "timestamp" : 1532543819
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333145, 10.3951122 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9te9",
+          "g" : "u5r2ue9te9",
+          "l" : [ 63.4332661, 10.3952814 ]
+        }
+      }
+    },
+    "-LIHm2Xm_6_nGmPBl469" : {
+      "activeUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHm2Xm_6_nGmPBl469",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333145,
+          "longitude" : 10.3951122
+        },
+        "timestamp" : 1532544694
+      },
+      "notifiedUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzf",
+          "g" : "u5r2ue9mzf",
+          "l" : [ 63.4333132, 10.3951203 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mzb",
+          "g" : "u5r2ue9mzb",
+          "l" : [ 63.4333033, 10.3951262 ]
+        }
+      }
+    },
+    "-LIHpJJEr8bu-PnBgAeh" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHpJJEr8bu-PnBgAeh",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333348,
+          "longitude" : 10.3951814
+        },
+        "timestamp" : 1532545549
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333125, 10.3951074 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mzd",
+          "g" : "u5r2ue9mzd",
+          "l" : [ 63.4333116, 10.3951113 ]
+        }
+      }
+    },
+    "-LIHpNQd9I2b6XxQ73QT" : {
+      "activeUsers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      },
+      "alarmdata" : {
+        "alarmId" : "-LIHpNQd9I2b6XxQ73QT",
+        "alerterFirstName" : "Jørgen",
+        "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+        "isActive" : false,
+        "location" : {
+          "latitude" : 63.4333116,
+          "longitude" : 10.3951113
+        },
+        "timestamp" : 1532545566
+      },
+      "notifiedUsers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      },
+      "userLocations" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+          ".priority" : "u5r2ue9te6",
+          "g" : "u5r2ue9te6",
+          "l" : [ 63.4332705, 10.3952762 ]
+        },
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+          ".priority" : "u5r2ue9mxq",
+          "g" : "u5r2ue9mxq",
+          "l" : [ 63.4332921, 10.3951006 ]
+        }
+      }
+    }
+  },
+  "chatsessions" : {
+    "-LICKMtT6XOL575qM7XD" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LICK_kRalgt1i_O7O1e" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LICKgSLXboYAydRuYm2" : {
+      "messages" : {
+        "-LICKm5WHpGdluZhNcT0" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Dfvb",
+          "timestamp" : 1532453395
+        },
+        "-LICKnicpIah-ss9hfqd" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : " Vcxxxcvvb",
+          "timestamp" : 1532453402
+        },
+        "-LICKvzC-z7Ws5Tykk8L" : {
+          "senderId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "senderName" : "Jørgen Svennevik Notland",
+          "text" : "Ggvvgv",
+          "timestamp" : 1532453436
+        },
+        "-LICKwXUJQB9k96MLJBq" : {
+          "senderId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "senderName" : "Jørgen Svennevik Notland",
+          "text" : "Bbb vv",
+          "timestamp" : 1532453439
+        },
+        "-LICL17kM1bMn3_8qDg4" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Hcccccf",
+          "timestamp" : 1532453461
+        },
+        "-LICL4CUf3nMFs5_BrLH" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Fffff",
+          "timestamp" : 1532453474
+        },
+        "-LICL5LorexBwD7GX8zG" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Jhhvcxx",
+          "timestamp" : 1532453478
+        },
+        "-LICMVJLzMOKxEglm6Yu" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Ddggg",
+          "timestamp" : 1532453847
+        },
+        "-LICMaiNh76yMcMkG7vl" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Fvvvb",
+          "timestamp" : 1532453873
+        }
+      },
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LICMvc5TPMNQAxBj7kI" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LICN-MXTFb0D-sf_XLc" : {
+      "messages" : {
+        "-LICN4P3ictdnezkFsFi" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Fttggh",
+          "timestamp" : 1532453999
+        },
+        "-LICN6j5Cx4yENvvo-wm" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Nbcxfvv",
+          "timestamp" : 1532454008
+        },
+        "-LICNPuC8W-8f9VoPtMZ" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Dfffgvg",
+          "timestamp" : 1532454087
+        },
+        "-LICNQz-a8ajyr1WQ8MG" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Xc bbbbbbbbvvvvhjhg",
+          "timestamp" : 1532454091
+        },
+        "-LICNSDqYOcGkY_ZYgY8" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Sddffghjkousaassdvnkl",
+          "timestamp" : 1532454096
+        },
+        "-LICNcxTrwjjQbCbq8gl" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : " Bgggg",
+          "timestamp" : 1532454144
+        },
+        "-LICNhcV2DQD7DRxZCyE" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Fghhh",
+          "timestamp" : 1532454164
+        },
+        "-LICNvokteowd0W7GgVP" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Ggggu",
+          "timestamp" : 1532454222
+        }
+      },
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LICOashve0wScGfXn23" : {
+      "messages" : {
+        "-LICOeA3s2cp4GcqdWxn" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Xxfgyghh",
+          "timestamp" : 1532454412
+        },
+        "-LICOfRvJUsZ9SspSdab" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Bbvvvbb",
+          "timestamp" : 1532454417
+        },
+        "-LICOgEA9svdLU1-Gk99" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Bbbnngf",
+          "timestamp" : 1532454420
+        },
+        "-LICOhQXPwLHqbYBAliU" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Jnbvcvbbbb",
+          "timestamp" : 1532454425
+        },
+        "-LICOiKFFEHm9ZJrYYNM" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Ffggbb",
+          "timestamp" : 1532454429
+        },
+        "-LICOkB5xXny-YWbq0To" : {
+          "senderId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "senderName" : "Jørgen Xperia Z1",
+          "text" : "Ggbbbb\n",
+          "timestamp" : 1532454436
+        }
+      },
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true,
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIC_w-X4K08MNfSSsW5" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LICa18HuEznAgIRcDuz" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIDF-FvGo1zJO-laGkm" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIGqcP3RdlatMgIxFO4" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIGy9Hxl8D0ISZLz3fK" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIGyBeRu-mYHrdBNKEp" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIGyCR4zohvYp0nRqAm" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIHNeDH2LF9FIoOKUn9" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIHWlCgQtRrNF5Q8VFu" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHWrMPLV-_2BbC3lMu" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHX-rIGicyHHyXDptf" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHX5kCzYtqQwCGmmoh" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIHX8Uxr0RTUTnnb41w" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHXDZycPXs2D0pDPuW" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHcrQXOxFio22WFofR" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHd1ymoiL8WbLUcEBl" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHeWtEFvEZwtNG1g7j" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHed5-3ZBqQ_v2fzmS" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHfx4K4RIfA7N6rmEH" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHiPP4Vrn6-bAca2ax" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHiZoUHBNqOTxeq5l3" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHicHvvm1ug9Wxg4MK" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHihwVuMDBqUKmu6FO" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true,
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIHm2Xm_6_nGmPBl469" : {
+      "subscribers" : {
+        "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : true
+      }
+    },
+    "-LIHpJJEr8bu-PnBgAeh" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    },
+    "-LIHpNQd9I2b6XxQ73QT" : {
+      "subscribers" : {
+        "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : true
+      }
+    }
+  },
+  "lastKnownUserLocationTimestamps" : {
+    "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : 1532546206,
+    "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : 1532546246
+  },
+  "lastKnownUserLocations" : {
+    "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+      ".priority" : "u5r2ue9te6",
+      "g" : "u5r2ue9te6",
+      "l" : [ 63.4332705, 10.3952762 ]
+    },
+    "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+      ".priority" : "u5r2ue9mxx",
+      "g" : "u5r2ue9mxx",
+      "l" : [ 63.4332981, 10.3951055 ]
+    }
+  },
+  "users" : {
+    "JEeN8xWJ2bMZN5I54RdpUQTU6rI2" : {
+      "email" : "jqrgenz1@gmail.com",
+      "fcmToken" : "fzCUC7Kij9Q:APA91bGARLLqUnyCO7ZhdC65c5YMKYvxK5sTGRmt2EBTnjAm2PPx2Qyq-tD3U3ae8XvP076MfgJqDB9jz10e1AWYz5m9eWrAfER2lSkT026LeZnK-2ixaMcCq2rrjxRjUfp4UclbB54-XeyLVFAHpRDNd9_IdsjHww",
+      "phoneNumber" : "+4790254609",
+      "profilePicUrl" : "https://lh6.googleusercontent.com/-DjG4sPf4n3Y/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7qb4feUJVFD4S4x_DiBeoj4U-HnzA/s96-c/photo.jpg",
+      "recentAlarms" : {
+        "-LICN-MXTFb0D-sf_XLc" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532454264308E9
+        },
+        "-LIC_w-X4K08MNfSSsW5" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532457651153E9
+        },
+        "-LIGqcP3RdlatMgIxFO4" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.53252915597E9
+        },
+        "-LIGy9Hxl8D0ISZLz3fK" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.53253109778E9
+        },
+        "-LIGyBeRu-mYHrdBNKEp" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532531103813E9
+        },
+        "-LIGyCR4zohvYp0nRqAm" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532531106308E9
+        },
+        "-LIHNeDH2LF9FIoOKUn9" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532540420176E9
+        },
+        "-LIHX5kCzYtqQwCGmmoh" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532540518706E9
+        },
+        "-LIHpJJEr8bu-PnBgAeh" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532545556288E9
+        },
+        "-LIHpNQd9I2b6XxQ73QT" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "Ut8QCGcTNqSFpwwWhYy4EiqWwju2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532546203708E9
+        }
+      },
+      "username" : "Jørgen Xperia Z1"
+    },
+    "Ut8QCGcTNqSFpwwWhYy4EiqWwju2" : {
+      "email" : "jorgen.notland@gmail.com",
+      "fcmToken" : "ep99UE2_S9E:APA91bEsQ8K9d_HC30dbE9-D06aPqfZr0L8dvX5Xl50dQqyU2t9yWXukd5KqtbtwIn5LozckN3V7nEx9kl-9L4KG8jkTjmAPk13TC4sodXqqABkXqe4DhO6DaBEAj_kDhry3hxbKUxu4dOlRh014DuuRj75KfDwVvQ",
+      "phoneNumber" : "+4790080822",
+      "profilePicUrl" : "https://lh3.googleusercontent.com/-P8uQttl1_m8/AAAAAAAAAAI/AAAAAAAAWbs/UboGpJtevoA/s96-c/photo.jpg",
+      "recentAlarms" : {
+        "-LICKMtT6XOL575qM7XD" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532453319312E9
+        },
+        "-LICK_kRalgt1i_O7O1e" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532453366575E9
+        },
+        "-LICKgSLXboYAydRuYm2" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532453957416E9
+        },
+        "-LICMvc5TPMNQAxBj7kI" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532453972811E9
+        },
+        "-LICOashve0wScGfXn23" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532454440714E9
+        },
+        "-LICa18HuEznAgIRcDuz" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532457880084E9
+        },
+        "-LIDF-FvGo1zJO-laGkm" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532516631822E9
+        },
+        "-LIHWlCgQtRrNF5Q8VFu" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532540439107E9
+        },
+        "-LIHWrMPLV-_2BbC3lMu" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.53254048438E9
+        },
+        "-LIHX-rIGicyHHyXDptf" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532540508205E9
+        },
+        "-LIHX8Uxr0RTUTnnb41w" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532540537907E9
+        },
+        "-LIHXDZycPXs2D0pDPuW" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532542282366E9
+        },
+        "-LIHcrQXOxFio22WFofR" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532542325307E9
+        },
+        "-LIHd1ymoiL8WbLUcEBl" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532542716615E9
+        },
+        "-LIHeWtEFvEZwtNG1g7j" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532542757709E9
+        },
+        "-LIHed5-3ZBqQ_v2fzmS" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532543077408E9
+        },
+        "-LIHfx4K4RIfA7N6rmEH" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532543736836E9
+        },
+        "-LIHiPP4Vrn6-bAca2ax" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532543776913E9
+        },
+        "-LIHiZoUHBNqOTxeq5l3" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532543789152E9
+        },
+        "-LIHicHvvm1ug9Wxg4MK" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.532543814309E9
+        },
+        "-LIHihwVuMDBqUKmu6FO" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.53254468582E9
+        },
+        "-LIHm2Xm_6_nGmPBl469" : {
+          "alerterFirstName" : "Jørgen",
+          "alerterId" : "JEeN8xWJ2bMZN5I54RdpUQTU6rI2",
+          "chatEnabled" : true,
+          "timestamp" : 1.53254475571E9
+        }
+      },
+      "username" : "Jørgen Svennevik Notland"
+    }
+  }
+}

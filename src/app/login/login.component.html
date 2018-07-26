@@ -13,11 +13,11 @@
             <fieldset>
               <div class="form-group">
                 <input class="form-control" placeholder="E-mail" name="email" type="text" id="email"
-                [(ngModel)]="email">
+                [(ngModel)]="email" autocomplete="off">
             </div>
             <div class="form-group">
               <input class="form-control" placeholder="Password" name="password" type="password" value=""
-              [(ngModel)]="password" (keyup.enter)="login()">
+              [(ngModel)]="password" (keyup.enter)="login()" autocomplete="off">
             </div>
             <input class="btn btn-lg btn-success btn-block" type="submit" (click)="login()" value="Login">
             </fieldset>
@@ -28,9 +28,81 @@
         <input class="btn btn-lg btn-danger btn-block bt-social" type="submit"
         (click)="loginWithGoogle()" value="Login with Google" data-provider="google">
 
-        <a class="nav-link active" href="#">Register here</a>
+        <div class='hr-or'></div>
+        <button type="button" class="btn btn btn-lg btn-danger btn-block bt-social btn-outline-dark"
+        data-toggle="modal" data-target="#registerModal" (click)="registerClear()">Register</button>
 
         </div>
     </div>
   </div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModal">Register with Flare Control Center</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="main-login main-center">
+                <form class="form-horizontal" method="post" action="#">
+
+                  <div class="form-group">
+                    <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" [(ngModel)]="email"
+                         placeholder="Enter Your Email Id" aria-label="email" aria-describedby="basic-addon1"
+                         name="email" id="email">
+                    </div>
+                  </div>
+<!--
+                  <div class="form-group">
+                      <label for="email" class="cols-sm-2 control-label">Confirm Email</label>
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                          </div>
+                          <input type="text" class="form-control" [(ngModel)]="confirmEmail"
+                           placeholder="Confirm Your Email Id" aria-label="confirmEmail" aria-describedby="basic-addon1">
+                      </div>
+                  </div> -->
+
+                  <div class="form-group">
+                    <label for="password" class="cols-sm-2 control-label">Password</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock fa" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="password" class="form-control" [(ngModel)]="password"
+                         placeholder="Enter Your Password" aria-label="password" aria-describedby="basic-addon1"
+                        name="password" id="password">
+                    </div>
+                  </div>
+<!--
+                  <div class="form-group">
+                    <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock fa" aria-hidden="true"></i></span>
+                        </div>
+                        <input type="text" class="form-control" [(ngModel)]="confirmPassword"
+                         placeholder="Confirm Your Password" aria-label="confirmPassword" aria-describedby="basic-addon1"
+                        name="confirmPassword" id="confirmPassword">
+                    </div>
+                  </div> -->
+                </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" (click)="registerClear()">Clear</button>
+          <button type="button" class="btn btn-success" (click)="register()" data-dismiss="modal">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -9,13 +9,35 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  email: string;
-  password: string;
+  email: string | null;
+  password: string | null;
+  confirmEmail: string;
+  confirmPassword: string;
+
   error: string;
 
-  constructor(private router: Router, public authService: AuthService ) { }
+  constructor(public router: Router, public authService: AuthService ) { }
 
   ngOnInit() {
+    this.email = null;
+    this.password = null;
+  }
+
+  register(): void {
+    if (this.email && this.password) {
+      this.authService.register(this.email, this.password)
+        .then(res => {
+          this.email = null;
+          this.password = null;
+          this.router.navigate(['/alarms']);
+        })
+        .catch(err => {
+          console.error(err);
+          this.error = 'Unable to register! User Already Exists.';
+        });
+    } else {
+      this.error = 'Please provide for all mandatory fields!';
+    }
   }
 
   login(): void {
@@ -37,4 +59,8 @@ export class LoginComponent implements OnInit {
     this.authService.loginWithGoogle();
   }
 
+  registerClear(): void {
+    this.email = null;
+    this.password = null;
+  }
 }

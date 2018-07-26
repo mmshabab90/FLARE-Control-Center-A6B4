@@ -29,3 +29,10 @@ img {
 .active a {
   color: #FF4664;
 }
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+

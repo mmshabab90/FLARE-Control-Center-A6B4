@@ -20,6 +20,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routeLists: Routes = [
   {path: '', pathMatch: 'full', component: LoginComponent},
@@ -38,6 +39,7 @@ const routeLists: Routes = [
     MapComponent,
     ChatComponent,
     LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

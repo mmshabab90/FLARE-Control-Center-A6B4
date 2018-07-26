@@ -13,7 +13,8 @@ export class AlarmListComponent implements OnInit {
 
   public active = false;
 
-  chatContent = '';
+  alarmContent = '';
+  alarms: Observable<any[]>;
   chats: Observable<any[]>;
   currentUser: firebase.User = null;
 
@@ -22,7 +23,8 @@ export class AlarmListComponent implements OnInit {
   }
 
   constructor(db: AngularFireDatabase, private authService: AuthService) {
-    this.chats = db.list('messages').valueChanges();
+    this.alarms = db.list('alarms').valueChanges();
+    this.chats = db.list('chatsessions').valueChanges();
   }
 
   ngOnInit() {

@@ -1,24 +1,3 @@
-.vertical-offset-100{
-  padding-top:100px;
-  justify-content: center;
-}
-
-div.hr-or {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eee;
-  text-align: center;
-  height: 0px;
-  line-height: 0px;
-}
-
-div.hr-or:before {
-  content: 'OR';
-  background-color: #fff;
-}
-
-/* Register form styles */
 .main{
   margin-top: 70px;
 }

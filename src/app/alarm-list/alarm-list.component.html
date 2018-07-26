@@ -3,12 +3,13 @@
     Alarm List
   </div>
 
-  <div *ngFor="let chat of chats | async" (click)="isActive()" class="panel panel-default">
+  <div *ngFor="let alarm of alarms | async" (click)="isActive()" class="panel panel-default">
       <div class="panel-body list-group-item d-flex justify-content-between align-items-center">
         <a class="nav-link active" href="#">
             <div class="row">
-                <div class="col-sm-12">{{chat.email}}</div>
-                <div class=""><small>{{chat.timeSent}}</small></div>
+                <div class="col-sm-12">Alerter: {{alarm.alarmdata.alerterFirstName}}</div>
+                <div class=""><small>{{alarm.alarmdata.timestamp* 1000 | date:'MM-dd-yyyy'}}</small></div>
+                <div class=""><small>{{alarm.alarmdata.alarmId}}</small></div>
             </div>
         </a>
           <span class="badge badge-primary badge-pill">14</span>
