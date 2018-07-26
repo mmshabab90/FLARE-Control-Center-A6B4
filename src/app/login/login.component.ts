@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  email: string | null;
-  password: string | null;
+  email: '';
+  password: '';
   confirmEmail: string;
   confirmPassword: string;
 
@@ -19,44 +19,58 @@ export class LoginComponent implements OnInit {
   constructor(public router: Router, public authService: AuthService ) { }
 
   ngOnInit() {
-    this.email = null;
-    this.password = null;
   }
 
   register(): void {
     if (this.email && this.password) {
       this.authService.register(this.email, this.password)
         .then(res => {
+          this.router.navigate(['/alarms']);
           this.email = null;
           this.password = null;
-          this.router.navigate(['/alarms']);
         })
         .catch(err => {
           console.error(err);
-          this.error = 'Unable to register! User Already Exists.';
+          this.error = 'Unable to register! ' + err ;
         });
     } else {
       this.error = 'Please provide for all mandatory fields!';
     }
   }
 
+  signInWithEmail() {
+    this.authService.signInRegular(this.email, this.password)
+       .then((res) => {
+          this.router.navigate(['alarms']);
+       })
+       .catch((err) => console.log('error: ' + err));
+  }
+
+  // login(): void {
+  //   if (this.email && this.password) {
+  //     this.authService.loginWiithEmailAndPassword(this.email, this.password)
+  //       .then(res => {
+  //         this.router.navigateByUrl('/alarms');
+  //       })
+  //       .catch(err => {
+  //         console.error(err);
+  //         this.error = 'Unable to login! ' + err;
+  //       });
+  //   } else {
+  //     this.error = 'Please provide all mandatory fields!';
+  //   }
+  // }
+
   login(): void {
-    if (this.email && this.password) {
-      this.authService.loginWiithEmailAndPassword(this.email, this.password)
-        .then(res => {
-          this.router.navigateByUrl('/alarms');
-        })
-        .catch(err => {
-          console.error(err);
-          this.error = 'Unable to login!';
-        });
-    } else {
-      this.error = 'Please provide all mandatory fields!';
-    }
+    this.authService.loginWiithEmailAndPassword(this.email, this.password);
   }
 
   loginWithGoogle(): void {
     this.authService.loginWithGoogle();
+  }
+
+  toRegister() {
+    this.router.navigateByUrl('/register');
   }
 
   registerClear(): void {
