@@ -26,8 +26,6 @@ export class LoginComponent implements OnInit {
       this.authService.register(this.email, this.password)
         .then(res => {
           this.router.navigate(['/alarms']);
-          this.email = null;
-          this.password = null;
         })
         .catch(err => {
           console.error(err);
